@@ -1,1 +1,25 @@
 curl -X POST -H "Content-Type: application/json" -d '{"url": "https://example.com"}' http://localhost:5000/analyze
+
+[
+  {
+    "word": "the",
+    "frequency": 10
+  },
+  {
+    "word": "example",
+    "frequency": 5
+  },
+  {
+    "word": "website",
+    "frequency": 2
+  },
+  {
+    "word": "is",
+    "frequency": 7
+  },
+  ...
+]
+
+
+
+
